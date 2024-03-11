@@ -31,8 +31,8 @@ export const TextSection = ({ title, subtitle, ...props }) => {
         font={"./fonts/Inter-Regular.ttf"}
       >
         {subtitle}
-        <meshStandardMaterial
-          color={"white"}
+        <meshPhysicalMaterial
+            color={"white"}
           onBeforeCompile={fadeOnBeforeCompileFlat}
         />
       </Text>

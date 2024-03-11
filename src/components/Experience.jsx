@@ -50,7 +50,7 @@ export const Experience = () => {
           curvePoints[1].y,
           curvePoints[1].z
         ),
-        subtitle: `Chào mừng đến với chuyến bay MH370`,
+        title: `Nguyen Hai Dang`,
       },
       {
         cameraRailDist: 1.5,
@@ -59,8 +59,7 @@ export const Experience = () => {
           curvePoints[2].y,
           curvePoints[2].z
         ),
-        title: "Donate",
-        subtitle: `ít thì 3 quả trứng nhiều thì 1 cái tên lửa`,
+        title: "25-07-2001",
       },
       {
         cameraRailDist: -1,
@@ -69,8 +68,7 @@ export const Experience = () => {
           curvePoints[3].y,
           curvePoints[3].z
         ),
-        title: "Nguyen Hai Dang",
-        subtitle: `VpBank 2125072001`,
+        title: "Full stack web Developer 2+ YoE",
       },
       {
         cameraRailDist: 1.5,
@@ -79,8 +77,16 @@ export const Experience = () => {
           curvePoints[4].y,
           curvePoints[4].z - 12
         ),
-        title: "Note",
-        subtitle: `Donate đi lẹ lên`,
+        title: "Next Solution Feb 2022 - July 2023",
+      },
+      {
+        cameraRailDist: -1,
+        position: new Vector3(
+            curvePoints[5].x - 4,
+            curvePoints[5].y,
+            curvePoints[5].z - 12
+        ),
+        title: "Icon-Technic July 2023 - Percent",
       },
     ];
   }, []);
